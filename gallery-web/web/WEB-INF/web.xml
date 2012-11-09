@@ -13,6 +13,14 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.clamaa.gallery.servlet.UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Log4jInit</servlet-name>
         <servlet-class>com.clamaa.gallery.utils.Log4jInit</servlet-class>
         <init-param>

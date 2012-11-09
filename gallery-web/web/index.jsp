@@ -11,8 +11,12 @@
     <title></title>
   </head>
   <body>
-  <form action="/gallery/hello" method="GET">
-      <input type="submit" name="submit" value="tijiao"/>
+  <form action="/gallery/Login" method="POST">
+      UserName:
+      <input type="text" name="username"/>
+      Password:
+      <input type="password" name="password"/>
+      <input type="submit" name="submit" value="Submit"/>
   </form>
   </body>
 </html>
