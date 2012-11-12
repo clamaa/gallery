@@ -12,7 +12,7 @@ hibernate.connection.username database user (optional)
 hibernate.connection.password database user password (optional)
     name="java:comp/env/hibernate/SessionFactory"
     -->
-    <session-factory >
+    <session-factory>
 
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.url">jdbc:postgresql://localhost/postgres</property>
@@ -26,7 +26,9 @@ hibernate.connection.password database user password (optional)
         <mapping resource="com/aof/component/domain/security/SecurityGroup.hbm.xml"/>
         <mapping resource="com/aof/component/domain/party/Party.hbm.xml"/>
         -->
-
         <mapping class="com.clamaa.gallery.entity.User"/>
+        <!--
+        <mapping package="com.clamaa.gallery.entity"/>
+         -->
     </session-factory>
 </hibernate-configuration>

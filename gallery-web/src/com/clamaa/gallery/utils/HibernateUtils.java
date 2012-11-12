@@ -2,6 +2,8 @@ package com.clamaa.gallery.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
  * @author Clark Ma
@@ -12,7 +14,8 @@ public class HibernateUtils {
     private static SessionFactory sessionFactory;
 
     static {
-        sessionFactory = new Configuration().configure().buildSessionFactory();
+        ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().buildServiceRegistry();
+        sessionFactory = new Configuration().configure().buildSessionFactory(serviceRegistry);
     }
 
     public static SessionFactory getSessionFactory(){

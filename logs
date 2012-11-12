@@ -1,51 +1,96 @@
-2012-11-09 16:17:29,999-[TS] INFO http-bio-8888-exec-5 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-09 16:17:30,189-[TS] INFO http-bio-8888-exec-5 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-09 16:17:30,233-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-09 16:17:30,265-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-09 16:17:30,886-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-09 16:17:30,889-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-09 16:17:31,406-[TS] WARN http-bio-8888-exec-5 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-09 16:17:31,911-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-09 16:17:36,012-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-09 16:17:36,061-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-09 16:17:36,064-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-09 16:17:36,070-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-09 16:17:36,073-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-09 16:17:39,299-[TS] INFO http-bio-8888-exec-5 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-09 16:17:39,653-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-09 16:17:40,005-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-09 16:17:40,158-[TS] INFO http-bio-8888-exec-5 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-09 16:23:18,873-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-09 16:23:18,882-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-09 16:23:18,884-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-09 16:23:18,886-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-09 16:23:18,910-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-09 16:23:18,911-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-09 16:23:18,937-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-09 16:23:18,969-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-09 16:23:19,142-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-09 16:23:19,145-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-09 16:23:19,145-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-09 16:23:19,145-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-09 16:23:19,145-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-09 16:23:19,349-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-09 16:23:19,364-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-09 16:23:19,378-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-09 16:23:19,384-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-09 16:24:21,471-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-09 16:24:21,481-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-09 16:24:21,483-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-09 16:24:21,485-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-09 16:24:21,511-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-09 16:24:21,511-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-09 16:24:21,538-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-09 16:24:21,569-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-09 16:24:21,749-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-09 16:24:21,752-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-09 16:24:21,752-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-09 16:24:21,753-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-09 16:24:21,753-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-09 16:24:21,981-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-09 16:24:21,995-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-09 16:24:22,010-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-09 16:24:22,017-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-12 09:12:49,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 09:12:49,659-[TS] INFO http-bio-8888-exec-5 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 09:12:49,662-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2012-11-12 09:12:49,664-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 09:13:02,658-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 09:13:05,042-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 09:20:05,153-[TS] WARN http-bio-8888-exec-5 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 09:34:38,533-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 09:40:12,153-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
+2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
+2012-11-12 09:40:12,400-[TS] INFO http-bio-8888-exec-5 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2012-11-12 09:40:12,415-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2012-11-12 09:40:12,428-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-11-12 09:40:12,435-[TS] INFO http-bio-8888-exec-5 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-12 09:57:08,296-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 09:57:08,299-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2012-11-12 09:57:08,300-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 09:57:08,442-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 09:57:16,004-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 09:57:16,004-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 09:57:16,040-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 09:57:20,668-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 09:57:20,682-[TS] WARN http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2012-11-12 09:58:21,710-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 09:58:21,713-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2012-11-12 09:58:21,714-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 09:58:21,848-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 09:58:21,874-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 09:58:21,874-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 09:58:21,900-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 09:58:24,726-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 09:58:24,916-[TS] WARN http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2012-11-12 10:03:56,762-[TS] INFO http-bio-8888-exec-5 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 10:06:21,468-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2012-11-12 10:06:21,473-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 10:06:21,613-[TS] INFO http-bio-8888-exec-5 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 10:06:21,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 10:06:21,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 10:06:21,674-[TS] WARN http-bio-8888-exec-5 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 10:06:21,706-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 10:06:21,843-[TS] WARN http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2012-11-12 10:11:27,368-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 10:11:27,372-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
+2012-11-12 10:11:27,372-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 10:11:27,508-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 10:11:27,535-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 10:11:27,536-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 10:11:27,562-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 10:11:27,594-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 10:11:27,726-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
+2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
+2012-11-12 10:11:27,931-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2012-11-12 10:11:27,946-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2012-11-12 10:11:27,961-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-11-12 10:11:27,968-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-12 10:25:34,420-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 10:25:34,424-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
+2012-11-12 10:25:34,424-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 10:25:34,574-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 10:25:34,601-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 10:25:34,602-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 10:25:34,628-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 10:25:34,666-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 10:25:34,813-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
+2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
+2012-11-12 10:25:35,044-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2012-11-12 10:25:35,059-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2012-11-12 10:25:35,073-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-11-12 10:25:35,080-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-12 10:26:46,015-[TS] INFO http-bio-8888-exec-2 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-12 10:26:46,018-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
+2012-11-12 10:26:46,019-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-12 10:26:46,160-[TS] INFO http-bio-8888-exec-2 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-12 10:26:46,186-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-12 10:26:46,186-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-12 10:26:46,212-[TS] WARN http-bio-8888-exec-2 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-12 10:26:46,242-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-12 10:26:46,389-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2012-11-12 10:26:46,392-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2012-11-12 10:26:46,392-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2012-11-12 10:26:46,393-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
+2012-11-12 10:26:46,393-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
+2012-11-12 10:26:46,596-[TS] INFO http-bio-8888-exec-2 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2012-11-12 10:26:46,611-[TS] INFO http-bio-8888-exec-2 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2012-11-12 10:26:46,623-[TS] INFO http-bio-8888-exec-2 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-11-12 10:26:46,628-[TS] INFO http-bio-8888-exec-2 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-12 10:26:46,693-[TS] INFO http-bio-8888-exec-2 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
