@@ -21,6 +21,15 @@
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Log4jInit</servlet-name>
         <servlet-class>com.clamaa.gallery.utils.Log4jInit</servlet-class>
         <init-param>
@@ -33,4 +42,21 @@
         <servlet-name>Log4jInit</servlet-name>
         <url-pattern>/log4j</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/springTest-services.xml</param-value>
+    </context-param>
+    <jsp-config>
+        <taglib>
+            <taglib-uri>/spring</taglib-uri>
+            <taglib-location>/WEB-INF/spring.tld</taglib-location>
+        </taglib>
+    </jsp-config>
 </web-app>
