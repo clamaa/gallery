@@ -1,96 +1,252 @@
-2012-11-12 09:12:49,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 09:12:49,659-[TS] INFO http-bio-8888-exec-5 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 09:12:49,662-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-12 09:12:49,664-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 09:13:02,658-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 09:13:05,042-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 09:20:05,153-[TS] WARN http-bio-8888-exec-5 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 09:34:38,533-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 09:40:12,153-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-12 09:40:12,157-[TS] INFO http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-12 09:40:12,400-[TS] INFO http-bio-8888-exec-5 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-12 09:40:12,415-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-12 09:40:12,428-[TS] INFO http-bio-8888-exec-5 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-12 09:40:12,435-[TS] INFO http-bio-8888-exec-5 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-12 09:57:08,296-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 09:57:08,299-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-12 09:57:08,300-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 09:57:08,442-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 09:57:16,004-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 09:57:16,004-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 09:57:16,040-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 09:57:20,668-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 09:57:20,682-[TS] WARN http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
-2012-11-12 09:58:21,710-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 09:58:21,713-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-12 09:58:21,714-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 09:58:21,848-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 09:58:21,874-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 09:58:21,874-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 09:58:21,900-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 09:58:24,726-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 09:58:24,916-[TS] WARN http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
-2012-11-12 10:03:56,762-[TS] INFO http-bio-8888-exec-5 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 10:06:21,468-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2012-11-12 10:06:21,473-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 10:06:21,613-[TS] INFO http-bio-8888-exec-5 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 10:06:21,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 10:06:21,646-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 10:06:21,674-[TS] WARN http-bio-8888-exec-5 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 10:06:21,706-[TS] INFO http-bio-8888-exec-5 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 10:06:21,843-[TS] WARN http-bio-8888-exec-5 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
-2012-11-12 10:11:27,368-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 10:11:27,372-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
-2012-11-12 10:11:27,372-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 10:11:27,508-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 10:11:27,535-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 10:11:27,536-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 10:11:27,562-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 10:11:27,594-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 10:11:27,726-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-12 10:11:27,729-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-12 10:11:27,931-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-12 10:11:27,946-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-12 10:11:27,961-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-12 10:11:27,968-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-12 10:25:34,420-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 10:25:34,424-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
-2012-11-12 10:25:34,424-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 10:25:34,574-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 10:25:34,601-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 10:25:34,602-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 10:25:34,628-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 10:25:34,666-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 10:25:34,813-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-12 10:25:34,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-12 10:25:35,044-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-12 10:25:35,059-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-12 10:25:35,073-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-12 10:25:35,080-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-12 10:26:46,015-[TS] INFO http-bio-8888-exec-2 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
-2012-11-12 10:26:46,018-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
-2012-11-12 10:26:46,019-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2012-11-12 10:26:46,160-[TS] INFO http-bio-8888-exec-2 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2012-11-12 10:26:46,186-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
-2012-11-12 10:26:46,186-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
-2012-11-12 10:26:46,212-[TS] WARN http-bio-8888-exec-2 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2012-11-12 10:26:46,242-[TS] INFO http-bio-8888-exec-2 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
-2012-11-12 10:26:46,389-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
-2012-11-12 10:26:46,392-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
-2012-11-12 10:26:46,392-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
-2012-11-12 10:26:46,393-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
-2012-11-12 10:26:46,393-[TS] INFO http-bio-8888-exec-2 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
-2012-11-12 10:26:46,596-[TS] INFO http-bio-8888-exec-2 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
-2012-11-12 10:26:46,611-[TS] INFO http-bio-8888-exec-2 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2012-11-12 10:26:46,623-[TS] INFO http-bio-8888-exec-2 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2012-11-12 10:26:46,628-[TS] INFO http-bio-8888-exec-2 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
-2012-11-12 10:26:46,693-[TS] INFO http-bio-8888-exec-2 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
+2012-11-23 17:44:53,372-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2012-11-23 17:44:53,447-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
+2012-11-23 17:44:53,503-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/springTest-services.xml]
+2012-11-23 17:44:53,504-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/springTest-services.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/springTest-services.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/springTest-services.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 26 more
+2012-11-23 17:44:53,517-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
+2012-11-23 17:44:53,518-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:44:53,518-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:48:05,798-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2012-11-23 17:48:05,871-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
+2012-11-23 17:48:05,926-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2012-11-23 17:48:05,927-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 26 more
+2012-11-23 17:48:05,938-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
+2012-11-23 17:48:05,938-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:48:05,939-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:51:29,992-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2012-11-23 17:51:30,064-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
+2012-11-23 17:51:30,119-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2012-11-23 17:51:30,120-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 26 more
+2012-11-23 17:51:30,133-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
+2012-11-23 17:51:30,133-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:51:30,134-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2012-11-23 17:51:54,248-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-23 17:51:54,278-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Fri Nov 23 17:51:54 CST 2012]; root of context hierarchy
+2012-11-23 17:51:54,328-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-23 17:51:54,452-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b91602: defining beans [loginController,viewResolver]; root of factory hierarchy
+2012-11-23 17:51:54,518-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2012-11-23 17:51:54,632-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 384 ms

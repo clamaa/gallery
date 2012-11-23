@@ -2,6 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!--
     <bean id="simpleUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
@@ -9,25 +10,8 @@
             </props>
         </property>
     </bean>
-    <bean id="loginController" class="com.clamaa.gallery.contoller.FirstSpringController">
-        <property name="sessionForm">
-            <value>true</value>
-        </property>
-        <property name="commandName">
-            <value>loginCommand</value>
-        </property>
-        <property name="commandClass">
-            <value>com.test.spring.mvc.commands.LoginCommand</value>
-        </property>
-        <property name="authenticationService">
-            <ref bean="authenticationService"/>
-        </property>
-        <property name="formView">
-            <value>login</value>
-        </property>
-        <property name="successView">
-            <value>loginDetail</value>
-        </property>
+    -->
+    <bean id="loginController" name="/login.do" class="com.clamaa.gallery.contoller.FirstSpringController">
     </bean>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass">
