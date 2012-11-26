@@ -11,7 +11,7 @@
     <title></title>
   </head>
   <body>
-  <form action="/gallery/1121login.do" method="POST">
+  <form action="/gallery/1231login.do" method="POST">
       UserName:
       <input type="text" name="username"/>
       Password:

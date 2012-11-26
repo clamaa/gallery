@@ -13,6 +13,7 @@
 
     <bean id="loginController" class="com.clamaa.gallery.contoller.FirstSpringController">
         <property name="userServices" ref="userServices"/>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass">
@@ -27,4 +28,8 @@
     </bean>
 
     <bean id="userServices" class="com.clamaa.gallery.services.UserServices"/>
+
+    <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="java:/comp/env/dataSourceJndi"/>
+    </bean>
 </beans> 

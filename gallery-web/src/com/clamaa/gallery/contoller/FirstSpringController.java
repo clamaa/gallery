@@ -8,6 +8,7 @@ import org.springframework.web.servlet.mvc.AbstractController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
 
 /**
  * @author Clark Ma
@@ -18,6 +19,15 @@ public class FirstSpringController extends AbstractController {
     private Logger logger = Logger.getLogger(getClass());
 
     private UserServices userServices;
+    private DataSource dataSource;
+
+    public DataSource getDataSource() {
+        return dataSource;
+    }
+
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
 
     public UserServices getUserServices() {
         return userServices;

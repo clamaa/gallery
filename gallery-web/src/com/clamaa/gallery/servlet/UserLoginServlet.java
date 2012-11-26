@@ -2,6 +2,7 @@ package com.clamaa.gallery.servlet;
 
 import com.clamaa.gallery.entity.User;
 import com.clamaa.gallery.services.UserServices;
+import com.clamaa.gallery.utils.DatabaseConnectionUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -26,10 +27,11 @@ public class UserLoginServlet extends HttpServlet{
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws
                                                                             ServletException,
                                                                             IOException {
-        String userName = req.getParameter("username");
-        String password = req.getParameter("password");
-        UserServices userServices = new UserServices();
-        boolean result = userServices.validateUser(new User(userName, password));
-        System.out.println(result);
+//        String userName = req.getParameter("username");
+//        String password = req.getParameter("password");
+//        UserServices userServices = new UserServices();
+//        boolean result = userServices.validateUser(new User(userName, password));
+//        System.out.println(result);
+        DatabaseConnectionUtils.getInstance();
     }
 }
