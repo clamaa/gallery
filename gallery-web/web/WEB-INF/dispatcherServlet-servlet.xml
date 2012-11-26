@@ -12,6 +12,7 @@
     </bean>
 
     <bean id="loginController" class="com.clamaa.gallery.contoller.FirstSpringController">
+        <property name="userServices" ref="userServices"/>
     </bean>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass">
@@ -24,4 +25,6 @@
             <value>.jsp</value>
         </property>
     </bean>
+
+    <bean id="userServices" class="com.clamaa.gallery.services.UserServices"/>
 </beans> 

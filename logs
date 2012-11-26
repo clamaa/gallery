@@ -1,23 +1,49 @@
-2012-11-23 17:44:53,372-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
-2012-11-23 17:44:53,447-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
-2012-11-23 17:44:53,503-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/springTest-services.xml]
-2012-11-23 17:44:53,504-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
-org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/springTest-services.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/springTest-services.xml]
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
-	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
-	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
-	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
-	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
-	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+2012-11-26 13:29:35,561-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 13:29:35,591-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:29:35 CST 2012]; root of context hierarchy
+2012-11-26 13:29:35,639-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 13:29:35,972-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@111bda67: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:29:36,027-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 13:29:36,502-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 940 ms
+2012-11-26 13:32:32,120-[TS] INFO localhost-startStop-2 org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:29:35 CST 2012]; root of context hierarchy
+2012-11-26 13:32:32,120-[TS] INFO localhost-startStop-2 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@111bda67: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:32:41,294-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 13:32:41,323-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:32:41 CST 2012]; root of context hierarchy
+2012-11-26 13:32:41,392-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 13:32:41,528-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7418e252: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:32:41,585-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 13:32:41,730-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 436 ms
+2012-11-26 13:38:36,772-[TS] INFO localhost-startStop-2 org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:32:41 CST 2012]; root of context hierarchy
+2012-11-26 13:38:36,773-[TS] INFO localhost-startStop-2 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7418e252: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:45:14,416-[TS] INFO localhost-startStop-1 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
+2012-11-26 13:45:14,850-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 13:45:14,893-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:45:14 CST 2012]; root of context hierarchy
+2012-11-26 13:45:14,963-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 13:45:15,085-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54bec43f: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:45:15,162-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54bec43f: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:45:15,163-[TS] ERROR localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simpleUrlMapping' defined in ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]: Initialization of bean failed; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.clamaa.gallery.contoller.FirstSpringController] for bean with name 'loginController' defined in ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+Related cause: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.clamaa.gallery.contoller.FirstSpringController] for bean with name 'loginController' defined in ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1266)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1185)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1080)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
 	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
 	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
@@ -30,76 +56,73 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:662)
-Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/springTest-services.xml]
-	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 26 more
-2012-11-23 17:44:53,517-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
-2012-11-23 17:44:53,518-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
-java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:44:53,518-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
-java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:44:53 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:48:05,798-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
-2012-11-23 17:48:05,871-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
-2012-11-23 17:48:05,926-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
-2012-11-23 17:48:05,927-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
-org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
-	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
-	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
-	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
-	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
-	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.clamaa.gallery.contoller.FirstSpringController] for bean with name 'loginController' defined in ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isSingleton(AbstractBeanFactory.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.isSingleton(AbstractApplicationContext.java:1125)
+	at org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:285)
+	at org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandlers(SimpleUrlHandlerMapping.java:129)
+	at org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.initApplicationContext(SimpleUrlHandlerMapping.java:104)
+	at org.springframework.context.support.ApplicationObjectSupport.initApplicationContext(ApplicationObjectSupport.java:119)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.initApplicationContext(WebApplicationObjectSupport.java:72)
+	at org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(ApplicationObjectSupport.java:73)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:117)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1448)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1714)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:258)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:417)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1283)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1254)
+	... 47 more
+Related cause:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.clamaa.gallery.contoller.FirstSpringController] for bean with name 'loginController' defined in ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1331)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:416)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1176)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:277)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.detectMappedInterceptors(AbstractHandlerMapping.java:212)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.initApplicationContext(AbstractHandlerMapping.java:186)
+	at org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.initApplicationContext(SimpleUrlHandlerMapping.java:103)
+	at org.springframework.context.support.ApplicationObjectSupport.initApplicationContext(ApplicationObjectSupport.java:119)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.initApplicationContext(WebApplicationObjectSupport.java:72)
+	at org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(ApplicationObjectSupport.java:73)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:117)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1448)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1266)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1185)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1080)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
 	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
 	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
@@ -112,141 +135,67 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:662)
-Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
-	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 26 more
-2012-11-23 17:48:05,938-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
-2012-11-23 17:48:05,938-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
-java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:48:05,939-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
-java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:48:05 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:51:29,992-[TS] INFO localhost-startStop-1 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
-2012-11-23 17:51:30,064-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
-2012-11-23 17:51:30,119-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
-2012-11-23 17:51:30,120-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
-org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
-	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
-	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
-	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
-	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
-	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
-	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
-	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 26 more
-2012-11-23 17:51:30,133-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
-2012-11-23 17:51:30,133-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
-java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:340)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1037)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:51:30,134-[TS] WARN localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Exception thrown from LifecycleProcessor on context close
-java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Fri Nov 23 17:51:30 CST 2012]; root of context hierarchy
-	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:353)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1045)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1000)
-	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:548)
-	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:142)
-	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4831)
-	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:655)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1628)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-2012-11-23 17:51:54,248-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-2012-11-23 17:51:54,278-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Fri Nov 23 17:51:54 CST 2012]; root of context hierarchy
-2012-11-23 17:51:54,328-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
-2012-11-23 17:51:54,452-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b91602: defining beans [loginController,viewResolver]; root of factory hierarchy
-2012-11-23 17:51:54,518-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
-2012-11-23 17:51:54,632-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 384 ms
+Caused by: java.lang.ClassNotFoundException: com.clamaa.gallery.contoller.FirstSpringController
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1714)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:258)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:417)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1283)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1254)
+	... 50 more
+2012-11-26 13:46:55,293-[TS] INFO localhost-startStop-1 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
+2012-11-26 13:46:55,744-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 13:46:55,789-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:46:55 CST 2012]; root of context hierarchy
+2012-11-26 13:46:55,873-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 13:46:55,984-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38e609c9: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:46:56,056-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 13:46:56,205-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 461 ms
+2012-11-26 13:54:17,814-[TS] INFO localhost-startStop-2 org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:46:55 CST 2012]; root of context hierarchy
+2012-11-26 13:54:17,815-[TS] INFO localhost-startStop-2 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38e609c9: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:55:21,641-[TS] INFO localhost-startStop-1 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
+2012-11-26 13:55:22,033-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 13:55:22,073-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:55:22 CST 2012]; root of context hierarchy
+2012-11-26 13:55:22,146-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 13:55:22,269-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72d86c58: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 13:55:22,329-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 13:55:22,457-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 424 ms
+2012-11-26 13:58:41,899-[TS] INFO localhost-startStop-2 org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 13:55:22 CST 2012]; root of context hierarchy
+2012-11-26 13:58:41,901-[TS] INFO localhost-startStop-2 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72d86c58: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 14:00:18,590-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 14:00:18,621-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 14:00:18 CST 2012]; root of context hierarchy
+2012-11-26 14:00:18,669-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 14:00:18,797-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@28c4b5f: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 14:00:18,848-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 14:00:18,968-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 377 ms
+2012-11-26 14:08:58,456-[TS] INFO localhost-startStop-2 org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 14:00:18 CST 2012]; root of context hierarchy
+2012-11-26 14:08:58,457-[TS] INFO localhost-startStop-2 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@28c4b5f: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 14:09:05,058-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 14:09:05,090-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 14:09:05 CST 2012]; root of context hierarchy
+2012-11-26 14:09:05,137-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 14:09:05,263-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6fb8fcdd: defining beans [simpleUrlMapping,loginController,viewResolver]; root of factory hierarchy
+2012-11-26 14:09:05,341-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 14:09:05,454-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 396 ms
+2012-11-26 14:10:52,554-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2012-11-26 14:10:52,584-[TS] INFO localhost-startStop-1 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Nov 26 14:10:52 CST 2012]; root of context hierarchy
+2012-11-26 14:10:52,634-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2012-11-26 14:10:52,769-[TS] INFO localhost-startStop-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a315068: defining beans [simpleUrlMapping,loginController,viewResolver,userServices]; root of factory hierarchy
+2012-11-26 14:10:52,835-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/*login.do] onto handler 'loginController'
+2012-11-26 14:10:52,979-[TS] INFO localhost-startStop-1 org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 425 ms
+2012-11-26 14:11:02,976-[TS] INFO http-bio-8888-exec-3 org.hibernate.Version - HHH000412: Hibernate Core {4.1.0.Final}
+2012-11-26 14:11:02,979-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.username=postgres, hibernate.connection.password=****, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, hibernate.connection.url=jdbc:postgresql://localhost/postgres, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.postgresql.Driver}
+2012-11-26 14:11:02,979-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2012-11-26 14:11:03,129-[TS] INFO http-bio-8888-exec-3 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-11-26 14:11:03,157-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2012-11-26 14:11:03,157-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2012-11-26 14:11:03,200-[TS] WARN http-bio-8888-exec-3 org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-11-26 14:11:03,234-[TS] INFO http-bio-8888-exec-3 org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2012-11-26 14:11:03,377-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2012-11-26 14:11:03,380-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2012-11-26 14:11:03,380-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2012-11-26 14:11:03,381-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/postgres]
+2012-11-26 14:11:03,381-[TS] INFO http-bio-8888-exec-3 org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=****}
+2012-11-26 14:11:03,798-[TS] INFO http-bio-8888-exec-3 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2012-11-26 14:11:03,817-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2012-11-26 14:11:03,831-[TS] INFO http-bio-8888-exec-3 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-11-26 14:11:03,837-[TS] INFO http-bio-8888-exec-3 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2012-11-26 14:11:03,891-[TS] INFO http-bio-8888-exec-3 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Alpha1
