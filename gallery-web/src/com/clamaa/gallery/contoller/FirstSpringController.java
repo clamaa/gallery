@@ -19,6 +19,6 @@ public class FirstSpringController extends AbstractController {
     protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) throws
                                                                                                            Exception {
         logger.debug("sssss");
-        return null;
+        return new ModelAndView("success");
     }
 }
