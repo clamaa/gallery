@@ -18,6 +18,7 @@ public class UserServices {
         SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
         Session session = sessionFactory.openSession();
         Query query = session.createQuery("from User ");
+
         List<User> userList = query.list();
         for (User userInDb : userList) {
             if(userInDb.getUsername().equals(user.getUsername()) && userInDb.getPassword().equals(user.getPassword())){
