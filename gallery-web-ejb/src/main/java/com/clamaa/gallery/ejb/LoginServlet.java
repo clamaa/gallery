@@ -1,5 +1,9 @@
 package com.clamaa.gallery.ejb;
 
+import com.clamaa.gallery.ejb.entity.User;
+import com.clamaa.gallery.ejb.services.IUserLoginService;
+
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,6 +15,9 @@ import java.io.IOException;
  *         created at 11/12/12
  */
 public class LoginServlet extends HttpServlet {
+
+    @EJB
+    private IUserLoginService userLoginService;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws
@@ -27,7 +34,12 @@ public class LoginServlet extends HttpServlet {
 //        String password = req.getParameter("password");
 //        UserServices userServices = new UserServices();
 //        boolean result = userServices.validateUser(new User(userName, password));
-        System.out.println(111);
+
+        User user = new User();
+        user.setUsername(req.getParameter("username"));
+        user.setPassword(req.getParameter("password"));
+        boolean success = userLoginService.validateUser(user);
+        System.out.println(success);
     }
 
 }
