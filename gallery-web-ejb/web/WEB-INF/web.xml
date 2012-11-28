@@ -35,7 +35,8 @@
         <url-pattern>/log4j</url-pattern>
     </servlet-mapping>
     -->
-    
+
+    <!--
     <servlet>
         <servlet-name>Login</servlet-name>
         <servlet-class>com.clamaa.gallery.ejb.LoginServlet</servlet-class>
@@ -44,7 +45,7 @@
         <servlet-name>Login</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
-
+    -->
 
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>
