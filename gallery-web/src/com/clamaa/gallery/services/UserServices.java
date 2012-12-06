@@ -5,6 +5,7 @@ import com.clamaa.gallery.utils.HibernateUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
  * @author Clark Ma
  *         created at 11/9/12
  */
+@Service
 public class UserServices {
 
     public boolean validateUser(User user){
