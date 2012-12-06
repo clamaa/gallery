@@ -1,14 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html
         PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+        >
+
 <head>
-    <title>Index</title>
+    <title>Login Page</title>
 </head>
 <body>
-    Current Page.
+    Please login with your name.
+    <br/>
+    <!-- -->
+    <h:form id="loginForm">
+        <h:outputText value="UserName:"/>
+        <h:inputText id="usernameInput" value="#{loginMgmtBean.userName}" autocomplete="on"/>
+        <br/>
+        <h:outputText value="Password:"/>
+        <h:inputText id="passwordInput" value="#{loginMgmtBean.password}" autocomplete="on"/>
 
+        <h:commandButton id="loginBtn" type="submit" value="Login" action="#{loginMgmtBean.login}"/>
+    </h:form>
+
+    <!--
     <form action="/gallery-ejb/login" method="post">
         UserName:
         <input type="text" name="username"/>
@@ -16,5 +32,6 @@
         <input type="password" name="password"/>
         <input type="submit" name="submit" value="Submit"/>
     </form>
+    -->
 </body>
 </html>
