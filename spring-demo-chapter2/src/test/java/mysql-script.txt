@@ -1,0 +1,98 @@
+mysql> drop database if exists sampledb
+    -> ;
+Query OK, 0 rows affected, 1 warning (0.08 sec)
+
+mysql> create database sampledb default character set utf8;
+Query OK, 1 row affected (0.11 sec)
+
+mysql> use sampledb
+Database changed
+mysql> create table t_user(
+    -> user_id INT AUTO_INCREMENT PRIMARY KEY,
+    -> user_name VARCHAR(30),
+    -> credits INT,
+    -> password VARCHAR(32),
+    -> last_visit datetime,
+    -> last_ip VARCHAR(23)
+    -> )ENGINE=InnoDB;
+Query OK, 0 rows affected (0.83 sec)
+
+mysql> desc t_user
+    -> ;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| user_id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| user_name  | varchar(30) | YES  |     | NULL    |                |
+| credits    | int(11)     | YES  |     | NULL    |                |
+| password   | varchar(32) | YES  |     | NULL    |                |
+| last_visit | datetime    | YES  |     | NULL    |                |
+| last_ip    | varchar(23) | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.17 sec)
+
+mysql> CREATE TABLE t_login_log(
+    -> login_log_id INT AUTO_INCREMENT PRIMARY KEY,
+    -> user_id INT,
+    -> ip VARCHAR(23),
+    -> login_datetime datetime
+    -> )ENGINE=InnoDB;
+Query OK, 0 rows affected (0.34 sec)
+
+mysql> insert into t_user(user_name, password) VALUES('admin','123456');
+Query OK, 1 row affected (0.09 sec)
+
+mysql> select * from t_user;
++---------+-----------+---------+----------+------------+---------+
+| user_id | user_name | credits | password | last_visit | last_ip |
++---------+-----------+---------+----------+------------+---------+
+|       1 | admin     |    NULL | 123456   | NULL       | NULL    |
++---------+-----------+---------+----------+------------+---------+
+1 row in set (0.00 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> select * from t_user;
++---------+-----------+---------+----------+------------+---------+
+| user_id | user_name | credits | password | last_visit | last_ip |
++---------+-----------+---------+----------+------------+---------+
+|       1 | admin     |    NULL | 123456   | NULL       | NULL    |
++---------+-----------+---------+----------+------------+---------+
+1 row in set (0.00 sec)
+
+mysql> desc t_user
+    -> ;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| user_id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| user_name  | varchar(30) | YES  |     | NULL    |                |
+| credits    | int(11)     | YES  |     | NULL    |                |
+| password   | varchar(32) | YES  |     | NULL    |                |
+| last_visit | datetime    | YES  |     | NULL    |                |
+| last_ip    | varchar(23) | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.03 sec)
+
+mysql> desc t_login_log
+    -> ;
++----------------+-------------+------+-----+---------+----------------+
+| Field          | Type        | Null | Key | Default | Extra          |
++----------------+-------------+------+-----+---------+----------------+
+| login_log_id   | int(11)     | NO   | PRI | NULL    | auto_increment |
+| user_id        | int(11)     | YES  |     | NULL    |                |
+| ip             | varchar(23) | YES  |     | NULL    |                |
+| login_datetime | datetime    | YES  |     | NULL    |                |
++----------------+-------------+------+-----+---------+----------------+
+4 rows in set (0.06 sec)
+
+mysql> select * from t_user
+    -> ;
++---------+-----------+---------+----------+------------+---------+
+| user_id | user_name | credits | password | last_visit | last_ip |
++---------+-----------+---------+----------+------------+---------+
+|       1 | admin     |    NULL | 123456   | NULL       | NULL    |
++---------+-----------+---------+----------+------------+---------+
+1 row in set (0.53 sec)
+
