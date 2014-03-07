@@ -23,15 +23,15 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws
-                                                                           ServletException,
-                                                                           IOException {
+            ServletException,
+            IOException {
         doPost(req, resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws
-                                                                            ServletException,
-                                                                            IOException {
+            ServletException,
+            IOException {
 //        String userName = req.getParameter("username");
 //        String password = req.getParameter("password");
 //        UserServices userServices = new UserServices();
