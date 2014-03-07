@@ -12,9 +12,18 @@ public class User implements Serializable {
     private int userId;
     private String userName;
     private String password;
+    private String userRealName;
     private int credits;
     private String lastIp;
     private Date lastVisit;
+
+    public String getUserRealName() {
+        return userRealName;
+    }
+
+    public void setUserRealName(String userRealName) {
+        this.userRealName = userRealName;
+    }
 
     public int getUserId() {
         return userId;

@@ -43,4 +43,9 @@ public class UserDao {
         return jdbcTemplate.queryForObject(sqlStr, Integer.class, new Object[]{userName, password});
     }
 
+    public void createUser(User user){
+        String sqlStr = "INSERT INTO t_user(user_name, password, user_real_name) VALUES (?,?,?)";
+        jdbcTemplate.update(sqlStr, new Object[]{user.getUserName(), user.getPassword(), user.getUserRealName()});
+    }
+
 }
