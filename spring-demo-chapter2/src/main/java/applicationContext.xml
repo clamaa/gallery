@@ -44,4 +44,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
         </tx:attributes>
     </tx:advice>
 
+
+    <aop:aspectj-autoproxy/>
+
 </beans>

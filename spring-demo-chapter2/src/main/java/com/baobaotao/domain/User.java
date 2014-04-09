@@ -7,7 +7,8 @@ import java.util.Date;
  * User: clamaa
  * Date: 14-3-2
  */
-public class User implements Serializable {
+public class
+        User implements Serializable {
 
     private int userId;
     private String userName;

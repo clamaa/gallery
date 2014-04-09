@@ -2,6 +2,7 @@ package com.baobaotao.web;
 
 import com.baobaotao.domain.User;
 import com.baobaotao.service.UserService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,22 +18,25 @@ import java.util.Date;
 @Controller
 public class LoginController {
 
+    private static Logger logger = Logger.getLogger(LoginController.class);
+
     @Autowired
     private UserService userService;
 
     /**
      * 负责处理index.html的请求
+     *
      * @return
      */
     @RequestMapping(value = "/index.html")
-    public String loginPage(){
+    public String loginPage() {
         return "login";
     }
 
     @RequestMapping(value = "/loginCheck.html")
-    public ModelAndView loginCheck(HttpServletRequest httpServletRequest, LoginCommand loginCommand){
+    public ModelAndView loginCheck(HttpServletRequest httpServletRequest, LoginCommand loginCommand) {
         boolean isValidUser = userService.hasMatchUser(loginCommand.getUserName(), loginCommand.getPassword());
-        if(!isValidUser){
+        if (!isValidUser) {
             return new ModelAndView("login", "error", "user name or password is incorrect");
         } else {
             User user = userService.findUserByUserName(loginCommand.getUserName());
