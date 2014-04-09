@@ -2,6 +2,7 @@ package com.baobaotao.dao;
 
 import com.baobaotao.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.stereotype.Repository;
@@ -17,6 +18,7 @@ import java.sql.SQLException;
 public class UserDao {
 
     @Autowired
+    @Qualifier("baobaotao")
     private JdbcTemplate jdbcTemplate;
 
     public User findUserByUserName(final String userName){
